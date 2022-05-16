@@ -23,3 +23,15 @@
     left: 50%;
     margin: -10% 0 0 -30%;    
 }
+
+.text-3 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ff0066;    
+}
+
+.child-2 {
+    padding: 40% 0;
+}
