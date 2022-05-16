@@ -1,0 +1,9 @@
+.text {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ff0066;
+}
