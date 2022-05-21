@@ -9,89 +9,101 @@
 <body>
     <table width="50" bgcolor="#FF7518" align="center">
         <caption>Пример таблицы</caption>
-        <tr align="right">
-            <th>Стоблец 1</th>
-            <th>Стоблец 2</th>
-            <th>Стоблец 3</th>
-        </tr>
-        <tr align="right">
-            <td>1/1</td>
-            <td>1/2</td>
-            <td>1/3</td>
-        </tr>
-        <tr>
-            <td width="40" height="50">2/1</td>
-            <td>2/2</td>
-            <td>2/3</td>
-        </tr>
-        <tr>
-            <td>3/1</td>
-            <td>3/2</td>
-            <td>3/3</td>
-        </tr>
+        <thead>
+            <tr align="right">
+                <td>Стоблец 1</td>
+                <td>Стоблец 2</td>
+                <td>Стоблец 3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="right">
+                <td>1/1</td>
+                <td>1/2</td>
+                <td>1/3</td>
+            </tr>
+            <tr>
+                <td width="40" height="50">2/1</td>
+                <td>2/2</td>
+                <td>2/3</td>
+            </tr>
+            <tr>
+                <td>3/1</td>
+                <td>3/2</td>
+                <td>3/3</td>
+            </tr>
+        </tbody>
     </table>
     <table border width="200">
         <caption>Пример таблицы с объединенными ячейками</caption>
-        <tr>
-            <th>Столбец 1</th>
-            <th>Столбец 1</th>
-            <th>Столбец 1</th>
-        </tr>
-        <tr>
-            <td colspan="2">1/1 + 1/2</td>
-            <td>1/3</td>
-        </tr>
-        <tr>
-            <td>2/1</td>
-            <td>2/2</td>
-            <td rowspan="2">2/3 +3/3</td>
-        </tr>
-        <tr>
-            <td>3/1</td>
-            <td>3/2</td>
-        </tr>
+        <thead>
+            <tr>
+                <td>Столбец 1</td>
+                <td>Столбец 1</td>
+                <td>Столбец 1</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">1/1 + 1/2</td>
+                <td>1/3</td>
+            </tr>
+            <tr>
+                <td>2/1</td>
+                <td>2/2</td>
+                <td rowspan="2">2/3 +3/3</td>
+            </tr>
+            <tr>
+                <td>3/1</td>
+                <td>3/2</td>
+            </tr>
+        </tbody>
     </table>
     <table border width="200">
         <caption>Первая самостоятельная таблица</caption>
-        <tr>
-            <th>Столбец 1</th>
-            <th>Столбец 2</th>
-            <th>Столбец 3</th>
-            <th>Столбец 4</th>
-            <th>Столбец 5</th>
-            <th>Столбец 6</th>
-            <th>Столбец 7</th>
-            <th>Столбец 8</th>
-        </tr>
-        <tr>
-            <td rowspan="4">1/1</td>
-            <td>1/2</td>
-            <td colspan="3" rowspan="2">1/3</td>
-            <td>1/6</td>
-            <td>1/7</td>
-            <td>1/8</td>
-        </tr>
-        <tr>
-            <td>2/2</td>
-            <td>2/6</td>
-            <td colspan="2">2/7</td>
-        </tr>
-        <tr>
-            <td>3/2</td>
-            <td>3/3</td>
-            <td>3/4</td>
-            <td>3/5</td>
-            <td>3/6</td>
-            <td>3/7</td>
-            <td>3/8</td>
-        </tr>
-        <tr>
-            <td colspan="7">4/2</td>
-        </tr>
-        <tr>
-            <td>5/1</td>
-            <td colspan="7">5/2</td>
-        </tr>
+        <thead>
+            <tr>
+                <td>Столбец 1</td>
+                <td>Столбец 2</td>
+                <td>Столбец 3</td>
+                <td>Столбец 4</td>
+                <td>Столбец 5</td>
+                <td>Столбец 6</td>
+                <td>Столбец 7</td>
+                <td>Столбец 8</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">1/1</td>
+                <td>1/2</td>
+                <td colspan="3" rowspan="2">1/3</td>
+                <td>1/6</td>
+                <td>1/7</td>
+                <td>1/8</td>
+            </tr>
+            <tr>
+                <td>2/2</td>
+                <td>2/6</td>
+                <td colspan="2">2/7</td>
+            </tr>
+            <tr>
+                <td>3/2</td>
+                <td>3/3</td>
+                <td>3/4</td>
+                <td>3/5</td>
+                <td>3/6</td>
+                <td>3/7</td>
+                <td>3/8</td>
+            </tr>
+            <tr>
+                <td colspan="7">4/2</td>
+            </tr>
+            <tr>
+                <td>5/1</td>
+                <td colspan="7">5/2</td>
+            </tr>
+        </tbody>
     </table>
     <table border width="200">
         <caption>Вторая самостоятельная таблица</caption>
