@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Анкета WEB-разработчика</h1>
+    <form action="example.php">
+        <table border width="700" bgcolor="#dddddd">
+            <tr>
+                <td>
+                    <label for="text">Регистрационное имя</label>
+                </td>
+                <td>
+                    <input type="text" id="text">
+                </td>
+                <tr>
+                    <td>
+                        <label for="password">Пароль</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password"><br />
+                        <input type="password"> (Повторите пароль)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ваша специализация</td>
+                    <td>
+                        <select name="specialization">
+                            <option value="developer">Программист</option>
+                            <option value="QA">Тестировщик</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Пол</td>
+                    <td>
+                        <input type="radio" name="sex" id="sex_m" value="sex">
+                        <label for="sex_m">М</label>
+                        <input type="radio" name="sex" id="sex_f" value="sex">
+                        <label for="sex_f">Ж</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ваши навыки</td>
+                    <td>
+                        <input type="checkbox">HTML и CSS<br />
+                        <input type="checkbox">PHP<br />
+                        <input type="checkbox">JAVA<br />
+                        <input type="checkbox">Flash<br />
+                        <input type="checkbox">Adobe Photoshop
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="additional information">Дополнительные сведения</label>
+                    </td>
+                    <td>
+                        <input type="text" id="additional information" style="width: 500px; height: 150px">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <input type="submit" value="Зарегистрировать">
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
