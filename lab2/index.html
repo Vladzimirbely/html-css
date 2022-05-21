@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -140,16 +140,18 @@
     <p>Переход в <a href="http://www.yandex.ru/" target="_blank" title="переход на Яндекс">поисковую систему Яндекс</a></p>
     <form>
         <h1>Заполните анкету</h1>
-        <p>Имя:</p>
-        <input type="text" name="first name">
-        <p>Фамилия:</p>
-        <input type="text" name="last name">
-        <p>Пол:</p>
-        <input type="radio" name="sex">Мужской
-        <input type="radio" name="sex">Женский
-        <p>Дата рождения:</p>
+        <label for="first name">Имя</label>
+        <input type="text" id="first name"><br />
+        <label for="last name">Фамилия</label>
+        <input type="text" id="last name"><br />
+        <label for="sex">Пол</label>
+        <input type="radio" id="sex">Мужской
+        <input type="radio" id="sex">Женский<br />
+        <label for="birthday">Дата рождения</label>
         <input type="date" name="birthday">
-        <p><button>Отправить</button></p>
+        <div>
+            <button>Отправить</button>
+        </div>
     </form>
 </body>
 </html>
