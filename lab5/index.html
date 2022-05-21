@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,21 @@
 </head>
 <body>
     <h1>Анкета WEB-разработчика</h1>
-    <form>
+    <form action="example.php">
         <table border width="700" bgcolor="#dddddd">
             <tr>
-                <td>Регистрационное имя</td>
                 <td>
-                    <input type="text">
+                    <label for="text">Регистрационное имя</label>
+                </td>
+                <td>
+                    <input type="text" id="text">
                 </td>
                 <tr>
-                    <td>Пароль</td>
                     <td>
-                        <input type="password"><br />
+                        <label for="password">Пароль</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password"><br />
                         <input type="password"> (Повторите пароль)
                     </td>
                 </tr>
@@ -34,8 +38,10 @@
                 <tr>
                     <td>Пол</td>
                     <td>
-                        <input type="radio" name="sex">М
-                        <input type="radio" name="sex">Ж
+                        <input type="radio" name="sex" id="sex_m" value="sex">
+                        <label for="sex_m">М</label>
+                        <input type="radio" name="sex" id="sex_f" value="sex">
+                        <label for="sex_f">Ж</label>
                     </td>
                 </tr>
                 <tr>
@@ -49,9 +55,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Дополнительные сведения</td>
                     <td>
-                        <input type="text" style="width: 500px; height: 150px">
+                        <label for="additional information">Дополнительные сведения</label>
+                    </td>
+                    <td>
+                        <input type="text" id="additional information" style="width: 500px; height: 150px">
                     </td>
                 </tr>
                 <tr>
