@@ -1,23 +1,33 @@
 .text {
-    width: 700px;
-    height: 700px;
+    position: absolute;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
-    display: table-cell;
+    right: 0%;
+    left: 0%;
+    margin: auto;
+    top: 25%;
     vertical-align: middle;
     text-align: center;
     background-color: #ff0066;
 }
 
-.text-2 {
+p, h2 {
+    position: relative;
+    top: 25%;
+    word-wrap: break-all;
+}
+
+ /* .text-2 {
     position: relative;
     width: 700px;
     height: 700px;
     border-radius: 50%;
     text-align: center;
     background-color: #ff0066;
-}
+} 
 
-.child {
+ .child {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,4 +44,4 @@
 
 .child-2 {
     padding: 40% 0;
-}
+} */
