@@ -1,4 +1,4 @@
-/* .text {
+.text {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -10,13 +10,13 @@
     vertical-align: middle;
     text-align: center;
     background-color: #ff0066;
-} */
+} 
 
-/* p, h2 {
+p, h2 {
     position: relative;
     top: 25%;
     word-wrap: break-all;
-} */
+} 
 
 .text-2 {
     position: absolute;
@@ -39,16 +39,21 @@
     right: 0%;
     top: 50%;
     transform: translate(0, -50%);
-} 
-
-/* .text-3 {
-    width: 700px;
-    height: 700px;
-    border-radius: 50%;
-    text-align: center;
-    background-color: #ff0066;    
 }
 
-.child-2 {
-    padding: 40% 0;
-} */ 
+.text-4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    top: 25%;
+    left: 0%;
+    right: 0%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0066;
+}
