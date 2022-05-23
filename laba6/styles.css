@@ -1,4 +1,4 @@
-.text {
+/* .text {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -10,31 +10,38 @@
     vertical-align: middle;
     text-align: center;
     background-color: #ff0066;
-}
+} */
 
-p, h2 {
+/* p, h2 {
     position: relative;
     top: 25%;
     word-wrap: break-all;
-}
+} */
 
- /* .text-2 {
-    position: relative;
-    width: 700px;
-    height: 700px;
+.text-2 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
+    margin: auto;
+    top: 25%;
+    left: 0%;
+    right: 0%;
+    vertical-align: middle;
     text-align: center;
     background-color: #ff0066;
 } 
 
- .child {
-    position: absolute;
+ p {
+    position: relative;
+    margin: auto;
+    left: 0%;
+    right: 0%;
     top: 50%;
-    left: 50%;
-    margin: -10% 0 0 -30%;    
-}
+    transform: translate(0, -50%);
+} 
 
-.text-3 {
+/* .text-3 {
     width: 700px;
     height: 700px;
     border-radius: 50%;
@@ -44,4 +51,4 @@ p, h2 {
 
 .child-2 {
     padding: 40% 0;
-} */
+} */ 
