@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1960px) {
 
-    header, nav {
+    header, nav, .image {
         width: 1000px;
     }
 }
