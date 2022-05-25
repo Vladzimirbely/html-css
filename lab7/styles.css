@@ -2,9 +2,11 @@ body {
     background-image: url(images/background.png);
 }
 
-h1 {
+h1, a {
     text-transform: uppercase;
     margin-left: 5%;
+    text-decoration: none;
+    color: #f6fbf7;
 }
 
 header {
@@ -14,6 +16,15 @@ header {
     margin: 0 auto;
     margin-right: 10%;
     margin-left: 10%;
-    color: #f6fbf7;
     background-color: #fbbba2;
+}
+
+nav {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #ff3867;
 }
