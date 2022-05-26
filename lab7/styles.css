@@ -2,7 +2,7 @@ body {
     background-image: url(images/background.png);
 }
 
-h1, a {
+h1, .nav-bar {
     text-transform: uppercase;
     margin-left: 5%;
     text-decoration: none;
@@ -43,7 +43,48 @@ nav {
 }
 
 img {
-    width: 95%;
+    width: 90%;
     height: 85%;
     display: inline-block;
+}
+
+.container {
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #f6fbf7;
+}
+
+p, h2, h3 {
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+h2 {
+    padding-top: 5%;
+}
+
+.dotted-line {
+    margin-right: 5%;
+    margin-left: 5%;
+    border-top: 1px dashed #dcdedd; 
+}
+
+.link {
+    color: #a65573;
+}
+
+.solid-line {
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    border-top: 1px solid #dcdedd; 
+}
+
+.link-list {
+    padding-right: 5%;
+    padding-left: 5%;
+    color: #a65573;
 }
