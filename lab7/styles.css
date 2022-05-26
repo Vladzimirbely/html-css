@@ -88,3 +88,13 @@ h2 {
     padding-left: 5%;
     color: #a65573;
 }
+
+.data-footer {
+    text-transform: uppercase;
+    text-align: center;
+    color: #90aea6;
+}
+
+.link-footer {
+    color: #90aea6;
+}
