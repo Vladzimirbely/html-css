@@ -1,52 +1,92 @@
-body {
-    background-image: url(images/background.png);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1, .nav-bar {
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(images/background.png) repeat;
+}
+
+.header header {
+    height: 129px;
+    display: flex;
+    align-items: center;
+    background-color: #fbbba2;
+}
+
+.header h1 {
     text-transform: uppercase;
     margin-left: 5%;
     text-decoration: none;
     color: #f6fbf7;
 }
 
-header {
-    height: 129px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: #fbbba2;
-}
-
-nav {
+.nav nav {
     height: 44px;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    margin-left: 10%;
     background-color: #ff3867;
 }
 
+.nav .nav-bar {
+    text-transform: uppercase;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #f6fbf7;
+}
+
 .image {
-    height: 280px;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 2%;
-    background-color: #f6fbf7;
+    margin: 20px auto;
 }
 
-img {
-    width: 90%;
-    height: 85%;
-    display: inline-block;
+.image .container {
+    padding: 20px;
+    background-color: #ffffff;
 }
+
+.image .container img {
+    width: 100%;
+    height: auto;
+}
+
+.main .container {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.main h2 {
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.main .subtitle {
+    line-height: 30px;
+    padding-bottom: 30px;
+    border-bottom: 5px dashed #dcdedd;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer span {
+    text-align: center;
+}
+
+/* 
 
 .container {
     margin: 0 auto;
@@ -97,4 +137,4 @@ h2 {
 
 .link-footer {
     color: #90aea6;
-}
+} */
