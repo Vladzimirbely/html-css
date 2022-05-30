@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create table</title>
+</head>
+<body>
+    <table width="50" bgcolor="#FF7518" align="center">
+        <caption>Пример таблицы</caption>
+        <thead>
+            <tr align="right">
+                <td>Стоблец 1</td>
+                <td>Стоблец 2</td>
+                <td>Стоблец 3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="right">
+                <td>1/1</td>
+                <td>1/2</td>
+                <td>1/3</td>
+            </tr>
+            <tr>
+                <td width="40" height="50">2/1</td>
+                <td>2/2</td>
+                <td>2/3</td>
+            </tr>
+            <tr>
+                <td>3/1</td>
+                <td>3/2</td>
+                <td>3/3</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border width="200">
+        <caption>Пример таблицы с объединенными ячейками</caption>
+        <thead>
+            <tr>
+                <td>Столбец 1</td>
+                <td>Столбец 1</td>
+                <td>Столбец 1</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">1/1 + 1/2</td>
+                <td>1/3</td>
+            </tr>
+            <tr>
+                <td>2/1</td>
+                <td>2/2</td>
+                <td rowspan="2">2/3 +3/3</td>
+            </tr>
+            <tr>
+                <td>3/1</td>
+                <td>3/2</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border width="200">
+        <caption>Первая самостоятельная таблица</caption>
+        <thead>
+            <tr>
+                <td>Столбец 1</td>
+                <td>Столбец 2</td>
+                <td>Столбец 3</td>
+                <td>Столбец 4</td>
+                <td>Столбец 5</td>
+                <td>Столбец 6</td>
+                <td>Столбец 7</td>
+                <td>Столбец 8</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">1/1</td>
+                <td>1/2</td>
+                <td colspan="3" rowspan="2">1/3</td>
+                <td>1/6</td>
+                <td>1/7</td>
+                <td>1/8</td>
+            </tr>
+            <tr>
+                <td>2/2</td>
+                <td>2/6</td>
+                <td colspan="2">2/7</td>
+            </tr>
+            <tr>
+                <td>3/2</td>
+                <td>3/3</td>
+                <td>3/4</td>
+                <td>3/5</td>
+                <td>3/6</td>
+                <td>3/7</td>
+                <td>3/8</td>
+            </tr>
+            <tr>
+                <td colspan="7">4/2</td>
+            </tr>
+            <tr>
+                <td>5/1</td>
+                <td colspan="7">5/2</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border width="200">
+        <caption>Вторая самостоятельная таблица</caption>
+        <tr>
+            <td rowspan="2">Логотип</td>
+            <td colspan="8">Графическая шапка сайта</td>
+        </tr>
+        <tr>
+            <td>Ссылка 1</td>
+            <td>Ссылка 2</td>
+            <td>Ссылка 3</td>
+            <td>Ссылка 4</td>
+            <td>Ссылка 5</td>
+            <td>Ссылка 6</td>
+            <td>Ссылка 7</td>
+            <td>Ссылка 8</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Левая колонка</td>
+            <td colspan="7">Центральная колонка</td>
+            <td rowspan="2">Правая колонка</td>
+        </tr>
+        <tr>
+            <td colspan="7">Подвал сайта</td>
+        </tr>
+    </table>
+    <p>Посетите <a href="http://www.yandex.ru/">поисковую систему Яндекс</a></p>
+    <p><a href="https://github.com/Vladzimirbely/html-css/tree/lab1">Ссылка</a> на первую работу</p>
+    <p>Посетите <a href="http://www.yandex.ru/" target="_blank">поисковую систему Яндекс</a></p>
+    <p name="top">первый абзац, в котором стоит пустая ссылка - якорь</p>
+    <p>второй обзац оыварлитвлаоитлывоаитлоываитывитывлоаилыволадиываиываивыаива</p>
+    <p>третий абзацвыаола  ываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоываываиоыва иываи вылаи ывлаи ов ыаи в аловыа ывлалоывоат лывиориываломиывалиывлоатилыовталтывал ываомиывоталитвлаитлвыамилывоиамиывамиывлоамиывралоитывлаитлывоативатыитыва</p>
+    <p><a href="#top">Наверх</a></p>
+    <p>Переход в <a href="http://www.yandex.ru/" target="_blank" title="переход на Яндекс">поисковую систему Яндекс</a></p>
+    <form>
+        <h1>Заполните анкету</h1>
+        <label for="first name">Имя</label>
+        <input type="text" id="first name"><br />
+        <label for="last name">Фамилия</label>
+        <input type="text" id="last name"><br />
+        <label for="sex">Пол</label>
+        <input type="radio" id="sex_m" name="sex" value="sex">
+        <label for="sex_m">Мужской</label>
+        <input type="radio" id="sex_f" name="sex" value="sex">
+        <label for="sex_f">Женский</label><br />
+        <label for="birthday">Дата рождения</label>
+        <input type="date" id="birthday">
+        <div>
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+</body>
+</html>
