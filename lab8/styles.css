@@ -40,7 +40,23 @@ li {
     background-color: #555555;
 }
 
+.submenu-2 {
+    position: absolute;
+    width: 100px;
+    display: none;
+    margin-left: 100px;
+    margin-top: -100px;
+    padding: 0;
+    top: auto;
+    bottom: 0;
+    background-color: #555555;
+}
+
 .menu:hover .submenu {
+    display: block;
+}
+
+.menu:hover .submenu-2 {
     display: block;
 }
 
